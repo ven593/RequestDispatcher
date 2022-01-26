@@ -1,0 +1,25 @@
+ 
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>index</servlet-name>
+  <servlet-class>servlets.AddServlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>index</servlet-name>
+  <url-pattern>/indexPage</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>for</servlet-name>
+  <servlet-class>servlets.Forward</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>for</servlet-name>
+  <url-pattern>/forward</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
